@@ -1,4 +1,4 @@
-function [x, y, thickness, camber] = naca4gen(nacaCode, numPoints)
+function [x, y, thickness, camber] = naca_coord(nacaCode, numPoints)
     % NACA 4-Series Airfoil Coordinates Generator
 
     % Extract parameters from NACA code
